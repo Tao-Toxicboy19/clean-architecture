@@ -1,0 +1,31 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Directories created by the `go` tool
+/vendor/
+/bin/
+/obj/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor directories and files
+.vscode/
+.idea/
+/*.sublime-project
+/*.sublime-workspace
+*.swp
+*~
+
+# Go module files (generated and fetched files)
+go.sum
+go.mod
